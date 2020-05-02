@@ -6,6 +6,10 @@ type ChallengeReq struct {
 	Type      string `json:"url_verification"`
 }
 
+type ChallengeRes struct {
+	Challenge string `json:"challenge"`
+}
+
 type UserMessage struct {
 	Type    string `json:"type"`
 	Channel string `json:"channel"`
